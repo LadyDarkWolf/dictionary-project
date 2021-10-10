@@ -4,7 +4,7 @@ import Meaning from "./Meaning";
 export default function Results(props) {
   let results = props.results;
   if (results === null) {
-    return <p>testing</p>;
+    return null;
   } else {
     return (
       <div className="Results">
