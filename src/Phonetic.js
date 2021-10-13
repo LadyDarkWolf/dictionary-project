@@ -1,10 +1,11 @@
 import React from "react";
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
   function audio() {
     if (props.phonetic.audio) {
       return (
-        <div>
+        <div className="d-inline">
           <a
             className="audio"
             href={props.phonetic.audio}
@@ -19,7 +20,7 @@ export default function Phonetic(props) {
   }
   return (
     <div className="Phonetic">
-      {props.phonetic.text}
+      <span className="text">{props.phonetic.text}</span>
       {audio()}
     </div>
   );

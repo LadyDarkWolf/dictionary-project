@@ -10,9 +10,9 @@ export default function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="wolf" />
         </main>
-        <footer className="text-center">
+        <footer className="App-footer">
           Coded by Lisa Wolf. Open sourced with source code at{" "}
           <a
             href="https://github.com/LadyDarkWolf/dictionary-project"
