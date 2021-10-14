@@ -1,0 +1,8 @@
+.Photos img {
+  border-radius: 8px;
+  padding-bottom: 16px;
+}
+.Photos .attribution {
+  text-align: center;
+  font-size: 12px;
+}
