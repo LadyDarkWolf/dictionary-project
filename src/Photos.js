@@ -15,7 +15,6 @@ export default function Photos(props) {
               </div>
             );
           })}
-          ;
         </div>
         <div className="attribution">
           <a target="_blank" rel="noreferrer" href="https://www.pexels.com">
