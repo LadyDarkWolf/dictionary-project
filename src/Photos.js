@@ -2,7 +2,8 @@ import React from "react";
 import "./Photos.css";
 
 export default function Photos(props) {
-  if (props.photos) {
+  console.log(props);
+  if (props.photos && props.photos.length) {
     return (
       <section className="Photos">
         <div className="row">
